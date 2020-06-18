@@ -9,7 +9,11 @@ writing in node.js so I can be familiar with it.
 
 ![Minecraft 'objects' Folder](https://my-music.is-bad.com/2J4EKvF.png "Screenshots taken by Aikoyori")
 
+###### Minecraft 'objects' Folder
+
 ![Inside one of the 'objects' Folders](https://my-music.is-bad.com/7D2Y8PF.png "Screenshots taken by Aikoyori")
+
+###### Inside one of the 'objects' Folders
 
 ## How to run™
 
