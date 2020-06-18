@@ -1,0 +1,17 @@
+{
+  "name": "minecraftAssets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "npm index.js"
+  },
+  "author": "Aikoyori",
+  "license": "GPLv3.0",
+  "dependencies": {
+    "cli-progress": "^3.6.1",
+    "cpy": "^8.1.0",
+    "make-dir": "^3.0.2",
+    "prompt": "^1.0.0"
+  }
+}
