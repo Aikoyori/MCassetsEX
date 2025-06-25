@@ -6,7 +6,7 @@ const prompt = require('prompt');
 var props = {
     properties: {
         version: {
-        pattern: /(.*-)?.+\..+/,
+        pattern: /.+/,
         message: 'Please don\'t make up versions that you haven\'t even downloaded.',
         required: true
       },
@@ -32,8 +32,6 @@ function makeid(length) {
  
 console.log("WELCOME TO THE MOST EPIC PROGRAM BY THE AIKOYORI \N\N ASSETS LISTING FROM YOUR INDEXES FOLDER : ");
 
-
- 
 const assetsDir = process.env.APPDATA + "/.minecraft/assets/" // TODO : MAKE THIS WORK ON OTHER OSes
 const objDir = assetsDir + "objects/"  
 const indexDir = assetsDir + "indexes/"
@@ -73,7 +71,6 @@ fs.readdir(indexDir, (err, files) => {
                 if (filenameMode == 2) {
                     fileName = value+"."+(key).split('/')[(key).split('/').length-1].split(".")[(key).split('/')[(key).split('/').length-1].split(".").length-1]
                 
-
                 }
                 if(filenameMode == 3)
                 {
