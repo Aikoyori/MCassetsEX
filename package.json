@@ -10,8 +10,8 @@
   "license": "GPLv3.0",
   "dependencies": {
     "cli-progress": "^3.6.1",
-    "cpy": "^8.1.0",
-    "make-dir": "^3.0.2",
+    "cpy": "^10.1.0",
+    "make-dir": "^4.0.0",
     "prompt": "^1.0.0"
   }
 }
